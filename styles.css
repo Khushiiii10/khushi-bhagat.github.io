@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Project Cards */
+.project-card {
+    flex: 1 1 300px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills List */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-list li {
+    margin: 5px 0;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.download-btn:hover {
+    background-color: #0056b3;
+}
